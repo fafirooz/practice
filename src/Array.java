@@ -2,7 +2,7 @@ public class Array {
     public static void main(String[] args) {
         int[] arrayList = new int[4];
         /* arrayList = new int[4]; */
-        /*int[] arrayList = {0, 1, 2, 3};*/
+        /*int[] arrayList = {1, 2, 3, 4};*/
 
 
         arrayList[0] = 1;

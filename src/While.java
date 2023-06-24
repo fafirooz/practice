@@ -1,5 +1,5 @@
 public class While {
-    public static void main(String[] args) {
+    public static void main(Application[] args) {
         int value01 = 10;
         do {
             System.out.println("value is:" + value01);

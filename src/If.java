@@ -1,5 +1,5 @@
 public class If {
-    public static void main(String[] args) {
+    public static void main(Application[] args) {
         int variable= 10;
 
         if(variable < 3){

@@ -1,5 +1,5 @@
 public class Array {
-    public static void main(String[] args) {
+    public static void main(Application[] args) {
         int[] arrayList = new int[4];
         /* arrayList = new int[4]; */
         /*int[] arrayList = {1, 2, 3, 4};*/

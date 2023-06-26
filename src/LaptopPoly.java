@@ -11,4 +11,9 @@ public class LaptopPoly extends ComputerPoly{
         System.out.println("Laptop ID is:" + ID);
 
     }
+
+    public void genericMethod(String[] arrStr) {
+        System.out.println("This element is:");
+    }
+
 }

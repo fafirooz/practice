@@ -1,5 +1,13 @@
+import java.util.Objects;
+
 public class LaptopPoly extends ComputerPoly{
     private int ID= 5;
+
+
+
+
+
+
 
     @Override
     public void start() {
@@ -12,8 +20,11 @@ public class LaptopPoly extends ComputerPoly{
 
     }
 
-    public void genericMethod(String[] arrStr) {
-        System.out.println("This element is:");
+    public < E > void genericMethod(E [] inputArray) {
+        for( E element: inputArray){
+            System.out.println("This is the element" +" "+ element);
+
+        }
     }
 
 }

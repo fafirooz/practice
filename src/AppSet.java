@@ -15,9 +15,20 @@ public class AppSet {
         set02.add(4);
         set02.add(5);
 
-        Set<Integer> set03= new HashSet<>(set01);
-        set03.addAll(set02);
-        System.out.println(set03);
+        Set<Integer> union= new HashSet<>(set01);
+        union.addAll(set02);
+        //union.retainAll(set02);
+        System.out.println(union);
+
+        Set<Integer> intersection = new HashSet<>(set01);
+        intersection.retainAll(set02);
+        System.out.println(intersection);
+
+        Set <Integer> difference= new HashSet<>(set01);
+        difference.removeAll(set02);
+        System.out.println(difference);
+
+
 
 
         List<Integer> list01 =  new ArrayList<>();
@@ -29,9 +40,12 @@ public class AppSet {
         list02.add(8);
         list02.add(9);
 
-        List <Integer> list03= new ArrayList<>(list01);
-        list03.addAll(list02);
-        System.out.println(list03);
+        List <Integer> unionlist= new ArrayList<>(list01);
+        unionlist.addAll(list02);
+        System.out.println(unionlist);
+        List <Integer> intersectionList = new ArrayList<>(list01);
+        intersectionList.retainAll(list02);
+        System.out.println(intersectionList);
 
     }
 

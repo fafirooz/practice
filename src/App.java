@@ -1,3 +1,4 @@
+/* the start class */
 public class App {
     public App() {
     }
